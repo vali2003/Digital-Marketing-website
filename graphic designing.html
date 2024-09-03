@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente-Digital-Agency</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/graphic.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-warning" style="width: 6rem; height: 6rem;" role="status">
+        </div>
+        <i class="text-warning position-absolute top-50 start-50 translate-middle"><img src="./img/g.gif" width="50px"
+                height="50px" alt=""></i>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="#"></a></li>
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="#"></a></li>
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="#"></a></li>
+                    <li class="breadcrumb-item"><a class="small text-secondary" href="#"></a></li>
+                </ol>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-square text-danger border-end rounded-0" href="https://facebook.com"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn-square text-danger border-end rounded-0" href="https://twitter.com"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn-square text-danger border-end rounded-0" href="https://linkedin-in.com"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn-square text-danger pe-0" href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Brand & Contact Start -->
+    <div class="container-fluid py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-4 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="fw-bold text-warning m-0"><img src="img/G Logos.png" width="200" alt=""></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+            </div>
+            <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-4">
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="flex-shrink-0 btn-lg-square border rounded-circle">
+                                <i class="far fa-envelope text-dark"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h6 class="mb-0">demo@gmail.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="flex-shrink-0 btn-lg-square border rounded-circle">
+                                <i class="fa fa-phone text-dark"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h6 class="mb-0">call +91 1234567890</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact end -->
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg  navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <header class="header">
+            <div class="container">
+                <div class="row v-center">
+                    <div class="header-item item-center">
+                        <div class="menu-overlay">
+                        </div>
+                        <nav class="menu">
+                            <div class="mobile-menu-head">
+                                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="menu-main">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="service.html">Services<i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                      <div class="list-item">
+                                            <h4 class="title">BRANDNING</h4>
+                                            <ul>
+                                                 <li><a href="graphic designing.html">GRAPHIC-DESIGNING</a></li>
+                                            </ul>
+                                            <h4 class="title">MARKETING</h4>
+                                            <ul>
+                                                 <li><a href="contentmarketing.html">CONTENT-WRITING</a></li>
+                                                 <li><a href="ppc.html">PPC</a></li>
+                                                 <!-- <li><a href="#">Product List</a></li> -->
+                                            </ul>
+                                      </div>
+                                      <div class="list-item">
+                                          <h4 class="title">STRATEGY</h4>
+                                          <ul>
+                                                 <li><a href="smm.html">SMM</a></li>
+                                                 <li><a href="#">SEO</a></li>
+                                                 <!-- <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li> -->
+                                            </ul>
+                                            <!-- <h4 class="title">WEBSITE</h4>
+                                          <ul>
+                                                 <li><a href="#">WEB-DEVELOPMENT</a></li> -->
+                                                 <!-- <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li> 
+                                            </ul> -->
+                                      </div>
+                                       <div class="list-item">
+                                          <h4 class="title">WEBSITE</h4>
+                                          <ul>
+                                                 <li><a href="web development.html">WEB-DEVELOPMENT</a></li>
+                                                 <!-- <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li>
+                                                 <li><a href="#">Product List</a></li> -->
+                                            </ul>
+                                      </div> 
+                                      <div class="list-item">
+                                           <img src="/img/h1.jpg" alt="shop">
+                                      </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Portfolio<i class="fas fa-angle-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="#">Gallery</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- menu end here -->
+                    <div class="header-item item-right">
+                        
+                        <!-- mobile menu trigger -->
+                        <div class="mobile-menu-trigger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+       <!-- <a href="#" class="navbar-brand ms-3 d-lg-none">MENU</a>
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav me-auto p-3 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <div class="nav-item dropdown">
+                    <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                        <a href="#" class="dropdown-item"></a>
+                    <a href="#" class="dropdown-item">aed</a>
+                    <a href="#" class="dropdown-item">uykyu</a>
+                    <a href="#" class="dropdown-item">yuud</a>
+                    <a href="#" class="dropdown-item">yuu</a>
+                    <a href="#" class="dropdown-item">67676</a>
+                    <a href="#" class="dropdown-item">76r767</a>
+                    <a href="#" class="dropdown-item">766</a>
+                </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <a href="#" class="btn btn-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block button2">Get Started</a> 
+        </div> -->
+    </nav>
+    <!-- navbar end -->
+     <!-- header  starts-->
+     <div class="container-fluid wow fadeIn page-header mb-5 py-5" data-wow-delay="0.1s">
+        <div class="text-center container py-5">
+            <h2 class="mb-3 animated slideInDown text-white display-4"></h2>
+            <nav aria-label="breadcrumb animate slideInDown">
+                <ol class="mb-0 justify-content-center breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-white">Pages</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-warning active">GRAPHIC-DESIGNING</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- header end -->
+    <!-- about start -->
+    <div class="container-xxl py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-lg-6 col-md-6 py-3">
+                    <h1 class="display-4">Design that Speaks Volumes</h1>
+                    <p>Our graphic design company is dedicated to providing innovative and effective design solutions
+                        that help businesses of all sizes succeed. From logo design to branding, packaging design to web
+                        design, we offer a comprehensive range of design services tailored to your specific needs and
+                        goals.</p>
+                    <div class="d-flex py-3 align-items-center">
+                        <!-- Button Triggering Modal -->
+                        <button type="button" class="btn btn-primary home-button py-3 me-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">GET MY FREE QUOTE</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">GET MY FREE
+                                            QUOTE</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">USER NAME</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-phone" class="col-form-label">PHONE NUMBER</label>
+                                                <input type="number" class="form-control" id="recipient-phone">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-email" class="col-form-label">EMAIL</label>
+                                                <input type="email" class="form-control" id="recipient-email">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contact Info -->
+                        <div>
+                            <h6>Call us for any inquiry</h6>
+                            <p>+91 91549 44876</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="text-center">
+                        <img src="img/wb6.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+    <!-- about graphic desingning start -->
+    <div class="container-xxl py-5">
+        <div class="container-fluid">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <h6 class="section-title text-secondary pe-3 bg-white text-start">About Us</h6>
+                        <h1 class="display-6 mb-4 py-3">Your Partner in Creative Design</h1>
+                        <p>Our graphic design company is dedicated to providing innovative and effective design
+                            solutions that help businesses of all sizes succeed. From logo design to branding, packaging
+                            design to web design, we offer a comprehensive range of design services tailored to your
+                            specific needs and goals.</p>
+                        <a href="about.html" class="btn btn-primary home-button">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-lg-4n col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <img src="img/G Logos.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="mx-auto mb-5 text-center fadeInUp wow" data-wow-delay="0.1s">
+                        <h6 class="section-title bg-white text-secondary px-3 text-center"><img src="img/validation.gif"
+                                width="50px" height="50px" alt=""></h6>
+                        <h6 class="mb-py-3" style="font-weight: bold;">Crafting Design that Makes a Difference</h6>
+                        <p>We specialize in creating visually stunning and impactful designs that help businesses stand
+                            out from the competition, connect with their audience, and achieve their business
+                            objectives. Our design process is collaborative and data-driven, ensuring that our designs
+                            meet your specific requirements and objectives.</p>
+                    </diV>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+    <!-- Search Start -->
+    <div class="container-fluid mb-5 wow fadeInUp" data-wow-delay="0.1s"
+        style="padding: 35px; background-color: rgb(245, 240, 246);">
+        <div class="container-fluid">
+            <h1 class="text-center py-4"><u>GET MY FREE QUOTE</u></h1>
+            <form id="quoteForm">
+                <div class="row g-2">
+                    <div class="col-lg-10 col-md-10">
+                        <div class="row g-5">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border border-secondary" id="inputName"
+                                    placeholder="NAME">
+                                <div id="nameError" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" class="form-control border border-secondary" id="inputPhone"
+                                    placeholder="PHONE">
+                                <div id="phoneError" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control border border-secondary" id="inputEmail"
+                                    placeholder="EMAIL">
+                                <div id="emailError" class="error-message" style="color: red;"></div>
+                            </div>
+                            <!-- <div class="col-md-3">
+                                <button type="submit" class="btn btn-warning border-0 w-100 g-5">GET MY FREE QUOTE</button>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <button type="submit" class="btn btn-warning border-0 w-100 g-5">GET MY FREE QUOTE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+    <!-- what we do starts -->
+    <div class="container-xxl py-3">
+        <div class="container-fluid mx-auto mb-5 text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title px-3 text-center bg-white text-secondary">WHAT WE DO</h5>
+            <h1 class="display-6 mb-4">Committed to Making Your Brand Stand Out</h1>
+            <div class="containere">
+                <p>We believe that effective selling is not just about promoting your products or services, but also
+                    telling a compelling story</p>
+                <p>that resonates with your audience. Our marketing and design services are designed to help you create
+                    a strong brand</p>
+                <p>narrative that engages your audience, builds trust, and drives conversions.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- graphic design cards desing start -->
+    <div class="container-fluid py-3" style=" background-color: rgb(245, 240, 246);">
+        <div class="container-xxl">
+            <div class="container">
+                <div class="row g-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row g-5">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <i class=""><img src="img/briefcase.gif" width="70px" class="py-5 me-5"
+                                                    alt=""></i>
+                                            <div>
+                                                <h1 class="display-6">Design</h1>
+                                                <p class="text-body">Our product design services are focused on creating
+                                                    innovative and user-centered designs that meet your customers' needs
+                                                    and preferences.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <i class=""><img src="img/branding.gif" width="70px" class="py-5 me-5"
+                                                    alt=""></i>
+                                            <div>
+                                                <h1 class="display-6">Branding</h1>
+                                                <p class="text-body">Our product design services are focused on creating
+                                                    innovative and user-centered designs that meet your customers' needs
+                                                    and preferences.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-2 py-5">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="row g-5">
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <i class=""><img src="img/trending-topic.gif" width="70px"
+                                                            class="py-5 me-5" alt=""></i>
+                                                    <div>
+                                                        <h1 class="display-6">Trend</h1>
+                                                        <p class="text-body">Our product design services are focused on
+                                                            creating innovative and user-centered designs that meet your
+                                                            customers' needs and preferences.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <i class=""><img src="img/award.gif" width="70px" class="py-5 me-5"
+                                                            alt=""></i>
+                                                    <div>
+                                                        <h1 class="display-6">Animation</h1>
+                                                        <p class="text-body">Our product design services are focused on
+                                                            creating innovative and user-centered designs that meet your
+                                                            customers' needs and preferences.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- Search-2 Start -->
+    <div class="container-fluid mb-5 wow fadeInUp" data-wow-delay="0.1s" style="padding: 35px; background-color: #fff;">
+        <div class="container-fluid">
+            <h1 class="text-center py-2"><u>GET MY FREE QUOTE</u></h1>
+            <form id="quoteForm2" class="mt-5">
+                <div class="row g-2">
+                    <div class="col-lg-10 col-md-10">
+                        <div class="row g-5">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border border-sborder border-secondary"
+                                    id="inputName2" placeholder="NAME">
+                                <div id="nameError2" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" class="form-control border border-secondary" id="inputPhone2"
+                                    placeholder="PHONE">
+                                <div id="phoneError2" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control border border-secondary" id="inputEmail2"
+                                    placeholder="EMAIL">
+                                <div id="emailError2" class="error-message" style="color: red;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <button type="submit" class="btn btn-warning border-0 w-100 g-5">GET MY FREE QUOTE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+    <!-- design starts -->
+    <div class="container-fluid py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="wow fadeInUp col-lg-6 col-md-12" data-wow-delay="0.1s">
+                    <div class="img-border">
+                        <img src="img/h7.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="wow fadeIn col-lg-6 col-md-12" data-wow-delay="0.1s">
+                    <h1 class="display-6">Design that Goes Beyond Brilliance</h1>
+                    <p>Our design philosophy goes beyond creating visually stunning designs. We believe that great
+                        design should also be functional, intuitive, and deliver a positive user experience. Our team of
+                        designers takes a human-centered approach to design, ensuring that our designs meet your users’
+                        needs and expectations.</p>
+                    <div class="containersss">
+                        <div class="counter-item">
+                            <h1 id="customerCounter">
+                                <span id="customerCount">0</span>
+                            </h1>
+                            <h4 class="py-2">SATISFIED CUSTOMERS</h4>
+                        </div>
+                        <div class="counter-item">
+                            <h1 id="projectCounter">
+                                <span id="projectCount">0</span>
+                            </h1>
+                            <h4 class="py-2">PROJECT FINISHED</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- design end -->
+    <!-- case study starts -->
+    <div class="container-xxl py-3">
+        <div class="container mx-auto mb-5 text-center wow fadeIn" data-wow-delay="0.1s">
+            <h4 class="section-title text-center px-3 bg-white text-secondary">CASES STUDY</h4>
+            <h1 class="display-6 mb-4">Marketing and Innovation can Hold the Success</h1>
+            <div class="containere">
+                <p>We believe that effective selling is not just about promoting your products or services, but also
+                    telling a compelling story</p>
+                <p>that resonates with your audience. Our marketing and design services are designed to help you create
+                    a strong brand</p>
+                <p>narrative that engages your audience, builds trust, and drives conversions.</p>
+            </div>
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item  rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item  rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item  rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item  rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="project-item rounded h-100 p-4" data-dot="">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded" src="img/c1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- case study end -->
+    <!-- workflow start -->
+    <div class="container-xxl py-3">
+        <div class="container mx-auto mb-5 text-center wow fadeIn" data-wow-delay="0.1s">
+            <h4 class="section-title text-center px-3 bg-white text-secondary">WORKFLOW</h4>
+            <h1 class="display-6 mb-4 py-2">Our words is Key to Successful Selling</h1>
+            <!-- <pre style="overflow: hidden;">Our graphic design agency services are designed to help businesses establish a unique and compelling brand identity that resonates with their</pre>
+            <pre style="overflow: hidden;">target audience. We combine design and marketing expertise to create designs that are not only visually appealing but also drive engagement,</pre>
+            <pre>narrative that engages your audience, builds trust, and drives conversions.</pre> -->
+            <div class="containere">
+                <p>We believe that effective selling is not just about promoting your products or services, but also
+                    telling a compelling story</p>
+                <p>that resonates with your audience. Our marketing and design services are designed to help you create
+                    a strong brand</p>
+                <p>narrative that engages your audience, builds trust, and drives conversions.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- workflow start -->
+    <div class="main wow fadeInUp" data-wow-delay="0.1s">
+        <h3 class="head">Digital Marketing Workflow</h3>
+        <div class="containers">
+            <ul class="uls">
+                <li class="lis">
+                    <!-- <h3 class="heading">Plan</h3> -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam.
+                    </p>
+                    <!-- <a href="#">Read More ></a> -->
+                    <span class="date">Plan</span>
+                    <span class="circle"></span>
+                </li>
+                <li class="lis">
+                    <!-- <h3 class="heading">Sprint</h3> -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam.
+                    </p>
+                    <!-- <a href="#">Read More ></a> -->
+                    <span class="date">Sprint</span>
+                    <span class="circle"></span>
+                </li>
+                <li class="lis">
+                    <!-- <h3 class="heading">Iteration</h3> -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam.
+                    </p>
+                    <!-- <a href="#">Read More ></a> -->
+                    <span class="date">Iteration</span>
+                    <span class="circle"></span>
+                </li>
+                <li class="lis">
+                    <!-- <h3 class="heading">Release</h3> -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam.
+                    </p>
+                    <!-- <a href="#">Read More ></a> -->
+                    <span class="date">Release</span>
+                    <span class="circle"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="container-xxl py-5">
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="row">
+                <div class="col-lg-2">
+                    <h4>Latest Updates</h4>
+                </div>
+                <div class="col-lg-4"> </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2">
+                    <a href="#" class="btn btn-primary home-button">browse</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cards start-->
+    <!-- <div class="container-fluid py-3">
+            <div class="container-xxl">
+                <div class="container">
+                    <div class="row g-2 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="row g-5">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 30rem;">
+                                        <img class="card-img-top" src="img/c1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/c1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/c1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="details-card"> -->
+    <section class="container py-3">
+        <div class="row wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-md-4 mb-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="img/c1.jpg" alt="Nature">
+                        <!-- <span><h4>Heading</h4></span> -->
+                    </div>
+                    <div class="card-desc">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">Blogs</a></li>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">admin</a></li>
+                        </ol>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis voluptas totam.</p> -->
+                        <button class="button5 py-2">
+                            <div class="icon_cont">
+                                <span class="icon">🡪</span>
+                            </div>
+                            <span class="text_button">Read More</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="img/c1.jpg" alt="Animals">
+                        <!-- <span><h4>Heading2</h4></span> -->
+                    </div>
+                    <div class="card-desc">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">Blogs</a></li>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">admin</a></li>
+                        </ol>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis voluptas totam.</p> -->
+                        <button class="button5 py-2">
+                            <div class="icon_cont">
+                                <span class="icon">🡪</span>
+                            </div>
+                            <span class="text_button">Read More</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="img/c1.jpg" alt="Tech">
+                        <!-- <span><h4>Heading3</h4></span> -->
+                    </div>
+                    <div class="card-desc">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">Blogs</a></li>
+                            <li class="breadcrumb-item"><a class="small text-secondary" href="#">admin</a></li>
+                        </ol>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis voluptas totam.</p> -->
+                        <!-- <a href="#" class="btn-card">Read</a>    -->
+                        <button class="button5 py-2">
+                            <div class="icon_cont">
+                                <span class="icon">🡪</span>
+                            </div>
+                            <span class="text_button">Read More</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end -->
+
+
+    <!-- Form 3 start-->
+    <div class="container-fluid mb-5 wow fadeInUp" data-wow-delay="0.1s" style="padding: 35px; background-color: #fff;">
+        <div class="container-fluid">
+            <h1 class="text-center py-2"><u>GET MY FREE QUOTE</u></h1>
+            <form id="quoteForm3" class="mt-5">
+                <div class="row g-2">
+                    <div class="col-lg-10 col-md-10">
+                        <div class="row g-5">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border border-secondary" id="inputName3" placeholder="NAME">
+                                <div id="nameError3" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" class="form-control border border-secondary" id="inputPhone3" placeholder="PHONE">
+                                <div id="phoneError3" class="error-message" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control border border-secondary" id="inputEmail3" placeholder="EMAIL">
+                                <div id="emailError3" class="error-message" style="color: red;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <button type="submit" class="btn btn-warning border-0 w-100 g-5">GET MY FREE QUOTE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- form 3  end-->
+    <!-- <div class="logos">
+        <h1 class="text-center">Our Clients</h1>
+        <div class="logos-slide">
+          <img src="img/client1.jpg"/>
+          <img src="img/client2.jpg" />
+          <img src="img/client3.jpg" />
+          <img src="img/client4.jpg" />
+          <img src="img/client5.jpg" />
+          <img src="img/client6.jpg" />
+          <img src="img/client7.jpg" />
+          <img src="img/client8.jpg" />
+        </div>
+      
+        <div class="logos-slide">
+            <img src="img/client1.jpg" />
+            <img src="img/client2.jpg" />
+            <img src="img/client3.jpg" />
+            <img src="img/client4.jpg" />
+            <img src="img/client5.jpg" />
+            <img src="img/client6.jpg" />
+            <img src="img/client7.jpg" />
+          <img src="img/client8.jpg" />
+        </div>
+      </div> -->
+      <!-- review starts -->
+       <div class="wow fadeInUp" data-wow-delay="0.1s">
+      <div class="responsive-container-block big-container">
+        <h1 class="display-6 text-center">Client-Review</h1>
+        <div class="responsive-container-block container">
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-6">
+            <div class="content-box">
+              <p class="text-blk section-head">
+                <h1 class="display-6">Digital Marketing Success Stories</h1>
+              </p>
+              <p class="text-blk section-subhead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div class="icon-block bounce">
+                <svg height="57" viewBox="0 0 57 57" width="57" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(0 57) rotate(-90)">
+                    <g transform="translate(0 0)">
+                      <path d="M15.178,0a2.666,2.666,0,0,1,1.6.523,2.219,2.219,0,0,1,.9,1.542,2.137,2.137,0,0,1-.57,1.665L5.882,15.927,16.706,28.143a2.132,2.132,0,0,1,.547,1.675,2.227,2.227,0,0,1-.922,1.533,2.676,2.676,0,0,1-1.911.555,2.574,2.574,0,0,1-1.747-.9L.57,17.361a2.115,2.115,0,0,1,0-2.889L13.1.823A2.627,2.627,0,0,1,15.178,0Z" transform="translate(18.337 12.769)">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6">
+            <div class="responsive-container-block swiper-container">
+              <div class="forwhite container-block">
+              </div>
+              <div class="swiper mySwiper11292">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-top">
+                        <div class="img-box">
+                          <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person1.png">
+                        </div>
+                        <div class="card-content-box">
+                          <p class="text-blk person-name">
+                            Nairobi Nora
+                          </p>
+                          <p class="text-blk person-info">
+                            Lorem ipsum dolor
+                          </p>
+                        </div>
+                      </div>
+                      <div class="ratings-container">
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="text-blk testimonial-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-top">
+                        <div class="img-box">
+                          <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person1.png">
+                        </div>
+                        <div class="card-content-box">
+                          <p class="text-blk person-name">
+                            Nairobi Nora
+                          </p>
+                          <p class="text-blk person-info">
+                            Lorem ipsum dolor
+                          </p>
+                        </div>
+                      </div>
+                      <div class="ratings-container">
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="text-blk testimonial-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-top">
+                        <div class="img-box">
+                          <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person1.png">
+                        </div>
+                        <div class="card-content-box">
+                          <p class="text-blk person-name">
+                            Nairobi Nora
+                          </p>
+                          <p class="text-blk person-info">
+                            Lorem ipsum dolor
+                          </p>
+                        </div>
+                      </div>
+                      <div class="ratings-container">
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="text-blk testimonial-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-top">
+                        <div class="img-box">
+                          <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person1.png">
+                        </div>
+                        <div class="card-content-box">
+                          <p class="text-blk person-name">
+                            Nairobi Nora
+                          </p>
+                          <p class="text-blk person-info">
+                            Lorem ipsum dolor
+                          </p>
+                        </div>
+                      </div>
+                      <div class="ratings-container">
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="text-blk testimonial-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <div class="card-top">
+                        <div class="img-box">
+                          <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person1.png">
+                        </div>
+                        <div class="card-content-box">
+                          <p class="text-blk person-name">
+                            Nairobi Nora
+                          </p>
+                          <p class="text-blk person-info">
+                            Lorem ipsum dolor
+                          </p>
+                        </div>
+                      </div>
+                      <div class="ratings-container">
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                        <div class="icon-block">
+                          <svg height="19.014" viewBox="0 0 19.99 19.014" width="19.99" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M759.865,451.835a.556.556,0,0,0-.449-.376l-5.882-.85-2.63-5.3a.557.557,0,0,0-1,0l-2.631,5.3-5.881.85a.552.552,0,0,0-.308.943l4.256,4.126-1.005,5.826a.55.55,0,0,0,.221.54.56.56,0,0,0,.327.106.566.566,0,0,0,.259-.063l5.26-2.751,5.261,2.75a.557.557,0,0,0,.585-.042.551.551,0,0,0,.222-.54l-1.005-5.826,4.256-4.126A.553.553,0,0,0,759.865,451.835Z" transform="translate(-740.41 -444.5)">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <p class="text-blk testimonial-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       </div>
+    <!-- end review -->
+<!-- footer starts -->
+<div class="container-fluid text-body footer mt-5 pt-5 wow fadeIn bg-dark" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="g-5 row">
+            <div class="col-md-6 col-lg-3">
+                <h5 class="text-light mb-4">Address</h5>
+                <p class="mb-2"><i class="me-3 fa fa-map-marker-alt"></i>306, 3rd Floor, MayFair Gardens, Banjara Hills, Road No. : 12, Hyderabad, Telangana 500034</p>
+                <p class="mb-2"><i class="me-3 fa fa-phone-alt">&nbsp;Phone</i><h6 class="text-secondary">Assistance hours: Monday – Friday, 9 am to 6 pm</h6>040-35167744</p>
+                <p class="mb-2"><i class="fa fa-envelope">&nbsp;Email</i><h6 class="text-secondary">Gradiente@gmail.com</h6></p>
+                <div class="d-flex pt-2">
+                    <a href="" class="me-2 rounded-circle btn-outline-secondary btn-square btn"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="rounded-circle btn-squaer btn-outline-secondary btn me-2" href=""><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="" class="me-2 btn btn-square btn-outline-secondary rounded-circle"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="" class="btn-outline-secondary btn-square btn rounded-circle me-0"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h5 class="text-light mb-4">Quick Links</h5>
+                <a href="" class="btn btn-link">About Us</a>
+                <a href="" class="btn btn-link">Contact Us</a>
+                <a href="" class="btn btn-link">Our Services</a>
+                <a href="" class="btn btn-link">Terms & Conditions</a>
+                <a href="" class="btn btn-link">Support</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="mb-4 text-light">Gallery</h5>
+                <div class="g-2 row">
+                    <div class="col-4">
+                        <img src="img/g1.jpg" class="rounded img-fluid" alt="Image">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/g2.jpg" class="img-fluid rounded" alt="Image">
+                    </div>
+                    <div class="col-4">
+                        <img class="rounded img-fluid" src="img/g3.jpg" alt="Image">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/g4.jpg" class="img-fluid rounded" alt="Image">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid rounded" src="img/g5.jpg" alt="Image">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/g6.jpg" class="img-fluid rounded" alt="Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">News Letter</h5>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                        placeholder="Enter Your Email">
+                    <button type="button"
+                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright">
+        <div class="container">
+            <div class="row">
+                <div class="text-center text-md-start mb-3 mb-md-0 col-md-6">
+                    &copy; <a href="#">gradiente-digital-agency</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-md-end text-center">
+                    Designed By <a href="#">Gradiente Infotainment Ltd</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- footer end -->
+    <!-- JavaScript Libraries -->
+     <!-- swiper-js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
