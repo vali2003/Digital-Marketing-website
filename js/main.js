@@ -311,13 +311,4 @@ document.getElementById("quoteForm3").addEventListener("submit", function(event)
         document.getElementById("quoteForm3").submit();
     }
 });
-// Testimonial 
-var swiper2 = new Swiper(".mySwiper11292", {
-    slidesPerView: "auto",
-    direction: "vertical",
-    spaceBetween: 20,
-    loop: true,
-    autoplay: true
-  });
 
-// end
